@@ -19,7 +19,7 @@
 			<input type="password" name="password">
 		</div>
 		<div class="input-group">
-			<button type="submit" name="submit" value="Register" >Login</button>
+			<button type="submit" name="submit" value="Register" >Đăng nhập</button>
 		</div>
 		<p>
 			Nếu bạn chưa có tài khoản, hãy <a href="register.php">đăng kí</a>
