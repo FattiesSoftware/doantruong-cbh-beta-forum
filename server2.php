@@ -1,6 +1,6 @@
 <?php 
 // connect to database
-$db = mysqli_connect('localhost:3308', 'root', '', 'php_forum');
+$db = mysqli_connect('localhost', 'root', '', 'php_forum');
 
 // lets assume a user is logged in with id $user_id
 //$user_id = 2;

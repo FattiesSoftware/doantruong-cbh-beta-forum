@@ -14,7 +14,7 @@
 	<center><h1> Thành viên </h1></center>
 	<?php include("header.php"); 
 		echo "<center>";
-		$servername = "localhost:3308";
+		$servername = "localhost";
 		$username = "root";
 		$password = "";
 		$dbname = "php_forum";
