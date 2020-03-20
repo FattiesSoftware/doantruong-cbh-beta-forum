@@ -58,7 +58,7 @@ env:
 # Update composer
 before-install:
  - composer self-update
- mysql -u root --password="" < ./core.sql
+
 # Install composer dependencies,
 # Create database, schema and fixtures
 install:
