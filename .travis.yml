@@ -58,6 +58,7 @@ env:
 # Update composer
 before-install:
  - composer self-update
+ mysql -u root --password="" < https://raw.githubusercontent.com/FattiesSoftware/doantruong-cbh-beta-forum/master/core.sql
 # Install composer dependencies,
 # Create database, schema and fixtures
 install:
